@@ -1,0 +1,67 @@
+h1 {
+	color: rgb(2, 132, 130);
+}
+h2 {
+	color: #ffd700;
+}
+img {
+	max-height: 1em;
+	max-width: 1em;
+	display: inline;
+}
+nav {
+	background: #808080;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	background: #ffbf00;
+	padding: 35px;
+	display: inline-block;
+	float: left;
+}
+a:hover {
+	color: #ee5f3c;
+}
+footer {
+	background: #808080;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+header {
+	text-align: center;
+}
+.wrapper {
+	text-align: center;
+	width: 800px;
+	/*margin: 0 auto;*/
+}
+.board {
+	height: 50%;
+	width: 50%;
+	margin: 8%;
+	display: inline-block;
+	/*float: left;*/
+}
+.card {
+	height: 200px;
+	width: 150px;
+	border: black solid 2px;
+	background-color: yellow;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px;
+}
+.name {
+	color: #ff0000;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
