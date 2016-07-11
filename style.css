@@ -1,13 +1,21 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
 h1 {
 	color: rgb(2, 132, 130);
 }
 h2 {
 	color: #ffd700;
 }
-img {
+img.footer {
 	max-height: 1em;
 	max-width: 1em;
 	display: inline;
+}
+img {
+	height: 200px;
+	width: 150px;
+
 }
 nav {
 	background: #808080;
@@ -36,7 +44,7 @@ header {
 .wrapper {
 	text-align: center;
 	width: 800px;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 }
 .board {
 	height: 50%;
